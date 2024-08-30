@@ -1,17 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.h1 {
-    font-size: 128px;
-    /* line-height: 100px; */
-    font-weight: 200px;
+@layer base {
+    html {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .active {
+        @apply bg-custom-gradient bg-clip-text text-transparent;
+    }
+
+    .title {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .paragraph {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .italic {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .gradient-text {
+        @apply bg-custom-gradient bg-clip-text text-transparent;
+    }
+
+    .gradient-back {
+        @apply bg-gradient-to-r from-[#1E2A5E] via-[#37467B] to-[#55679C];
+    }
+
+    .black-75 {
+        color: #232325;
+        opacity: 0.75;
+    }
 }
 
-.some {
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 200;
-    font-size: 17.1059px;
-    line-height: 29px;
+li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }

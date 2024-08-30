@@ -11,8 +11,15 @@ module.exports = {
         'primary': '#1E2A5E',
         'secondary': '#271E5E',
         'black': '#232325',
-        'black-75': '#232325'
-      }
+        'highlight': '#EBEBFF',
+        'grey': '#D9D9D9'
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90.17deg, #1E2A5E 0.15%, #37467B 61.47%, #55679C 99.85%)',
+      },
+      textColor: {
+        'gradient': 'transparent',
+      },
     }
   },
   plugins: [],
