@@ -1,3 +1,11 @@
+import Hero from "@/components/home/hero";
+import Trusted from "@/components/home/trusted";
+
 export default function Home() {
-  return <h1>Home Page</h1>;
+  return (
+    <>
+      <Hero />
+      <Trusted />
+    </>
+  );
 }

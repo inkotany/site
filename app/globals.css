@@ -7,7 +7,6 @@
 
 @layer base {
     html {
-        box-sizing: border-box;
         scroll-behavior: smooth;
     }
 
@@ -17,10 +16,16 @@
 
     .title {
         font-family: "Lato", sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 60px;
+        @apply text-6xl font-bold;
         line-height: 73px;
+    }
+
+    .sub-title {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        @apply text-3xl;
+        line-height: 48px;
     }
 
     .paragraph {
@@ -55,6 +60,6 @@
 
 li {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
 }
