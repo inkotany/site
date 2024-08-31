@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="mt-10 flex flex-row ml-10">
+    <div className="py-16 flex flex-row ml-10">
       <div className="basis-1/2">
         <h1 className="title text-black">
           Precision in every <span className="gradient-text">measurement</span>
