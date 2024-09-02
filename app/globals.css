@@ -20,6 +20,11 @@
         line-height: 73px;
     }
 
+    .section-title {
+        @apply font-bold gradient-text mb-8 text-center;
+        font-size: 40px;
+    }
+
     .sub-title {
         font-family: 'Lato';
         font-style: normal;

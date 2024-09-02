@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Hero from "@/components/home/hero";
 import Services from "@/components/home/services";
 import Trusted from "@/components/home/trusted";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Trusted />
       <Services />
+      <About />
     </>
   );
 }

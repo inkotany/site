@@ -21,7 +21,7 @@ export default function Hero() {
           </Link>
           <Link
             href="/about"
-            className="py-2 px-8 border items-center border-primary  text-primary rounded-full"
+            className="py-2 px-8 font-semibold border-2 items-center border-primary text-primary rounded-full"
           >
             About Us
           </Link>
